@@ -98,11 +98,14 @@
   border: 1px solid transparent;
   text-transform: lowercase;
   cursor: pointer;
-  appearance: none; 
   font-size: 18px;
   font-weight: 400;
   line-height: 18px;
   padding: 2px 13px;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var( --button-color-hover);
 }
 
 .header__theme-menu-button:focus {
@@ -113,10 +116,6 @@
   border-block-end: 1px solid var(--accent-color);
 }
 
-.header__theme-menu-button:hover {
-  border: 1px solid var( --button-color-hover);
-}
-
 .header__theme-menu-button_active {
   pointer-events: none;
   border: 1px solid var(--accent-color);
@@ -124,6 +123,24 @@
 
 .main__link {
   text-shadow: 2px 1px 0 var(--accent-color);
+  text-decoration: none;
+}
+
+.main__link:hover {
+  border-block-end: 1px solid var(--text-color);
+}
+
+.main__link:focus {
+  outline: none;
+}
+
+.main__link:focus-visible {
+  outline: 1px solid var(--text-color);
+}
+
+.main {
+  padding-block: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
+  padding-inline: 10px;
 }
 
 .section {
@@ -133,7 +150,7 @@
 
 .main {
   padding-block: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
-  padding-inline: 20px;
+  padding-inline: 10px;
 }
 
 .section:not(:last-of-type) {
@@ -165,7 +182,7 @@
   line-height: 23.4px;
 }
 
-.advices-section p:not(:last-of-type)  {
+.advices-section p:not(:last-of-type) {
   margin-bottom: 20px;
 }
 
