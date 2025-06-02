@@ -9,6 +9,14 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-font: 'IBM Plex mono';
+  --text-color: #F1B2CE;
+  --subtitle-color: #000028;
+  --title-color: #DB00FF;
+  --accent-color: #FF0070;
+  --button-color-hover: rgba(255, 0, 112, 0.4);
+  --bg-image: url('./../images/cover-image-dark.png');
+  --header-element: block;
 }
 
 .theme-dark .page {
