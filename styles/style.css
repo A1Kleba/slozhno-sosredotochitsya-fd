@@ -138,11 +138,6 @@
   outline: 1px solid var(--text-color);
 }
 
-.main {
-  padding-block: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
-  padding-inline: 10px;
-}
-
 .section {
   display: grid;
   gap: 20px;
@@ -150,7 +145,7 @@
 
 .main {
   padding-block: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
-  padding-inline: 10px;
+  padding-inline: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
 }
 
 .section:not(:last-of-type) {
