@@ -3,13 +3,16 @@
   и их переопределение под различные устройства
 */
 :root {
-  --main-font: 'IBM Plex mono';
-  --text-color: #F1B2CE;
+  --main-font: "IBM Plex mono";
+  --text-color: #f1b2ce;
   --subtitle-color: #000028;
-  --title-color: #DB00FF;
-  --accent-color: #FF0070;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --button-color: #ff0070;
+  --shadow-color: #ff0070;
+  --main-color: #ff0070;
   --button-color-hover: rgba(255, 0, 112, 0.4);
   --bg-color: #000028;
-  --bg-image: url('./../images/cover-image-dark.png');
+  --bg-image: url("./../images/cover-image-dark.png");
   --header-element: block;
 }
