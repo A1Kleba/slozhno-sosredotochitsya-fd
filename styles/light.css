@@ -17,7 +17,6 @@
   --shadow-color: #ff8dcb;
   --main-color: #353430;
   --button-color-hover: rgb(50, 49, 45, 0.4);
-  --bg-color: #000028;
   --bg-image: url("./../images/cover-image-light.png");
   --header-element: none;
 }
@@ -32,7 +31,6 @@
     --shadow-color: #ff8dcb;
     --main-color: #353430;
     --button-color-hover: rgb(50, 49, 45, 0.4);
-    --bg-color: #000028;
     --bg-image: url("./../images/cover-image-light.png");
     --header-element: none;
   }

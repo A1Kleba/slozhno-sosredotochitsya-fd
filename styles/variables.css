@@ -12,7 +12,6 @@
   --shadow-color: #ff0070;
   --main-color: #ff0070;
   --button-color-hover: rgba(255, 0, 112, 0.4);
-  --bg-color: #000028;
   --bg-image: url("./../images/cover-image-dark.png");
   --header-element: block;
 }
